@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.MuiInputBase-root,
+.comment-box .form-control,
+.comment-box textarea {
+    font-weight: bolder !important;
+}
+
+.AnyClassForContainer {
+    position: fixed;
+    right: -100px;
+    bottom: 20px;
+    transition: right 0.5s;
+    cursor: pointer;
+    background-color: #5166d8;
+    border-radius: 2px;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.AnyClassForTransition {
+    right: 20px
+}
